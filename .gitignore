@@ -44,6 +44,7 @@ playground.xcworkspace
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
 # Pods/
+*.lock
 
 # Carthage
 #
@@ -63,3 +64,8 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+
+# Sample
+#
+# Omit private information, like API keys in the sample project
+Sample/Private/*.*
